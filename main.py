@@ -57,7 +57,7 @@ def Detect(path):
     #Normalizing the scores
     combined_health, state = combined_health_state(machine_health_ae, machine_health_iso)
 
-    fault_type= locate_from_health(combined_health)
+    fault_type= locate_fault(signal, fs, 1500)
     if state != "Normal":
         reason = "Detected periodic impacts consistent with " + fault_type
     else:
