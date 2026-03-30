@@ -94,16 +94,6 @@ python main.py
 
 ------------------------------------------------------------------------
 
-## Health Index Interpretation
-
-Score \< 8.4 → Healthy\
-8.4 -- 8.85 → Inner Race Fault\
-\> 8.85 → Outer Race Fault
-
-Severity depends on progression within the region.
-
-------------------------------------------------------------------------
-
 ## Runtime Requirements
 
 Python 3.9+\
