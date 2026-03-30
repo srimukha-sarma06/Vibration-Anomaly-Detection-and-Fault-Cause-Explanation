@@ -81,7 +81,7 @@ def locate_fault(signal, fs, rpm):
     votes = []
     infos = []
 
-    for w in windows(signal):     # same windows you use for features
+    for w in windows(signal):    
         fault, info = detect_fault(w, fs, rpm)
         votes.append(fault)
         infos.append(info)
